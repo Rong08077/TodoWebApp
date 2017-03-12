@@ -1,0 +1,19 @@
+<td>
+    <div class="show-item row-fluid">
+        <div class="todo-indicator pull-left item-buttons">
+            <i class="<%= done ? 'icon-check' : 'icon-check-empty' %>  "></i>
+        </div>
+        
+        <span class="todo-content"><%= content %></span>
+            
+        <div class="pull-right item-buttons">
+            <span class="todo-edit"><i class="icon-pencil" ></i></span>
+            <span class="todo-destroy"><i class="icon-trash" ></i></span>
+        </div>                
+    </div>
+
+    <div class="edit-item input-append hidden">
+        <input type="text" class="todo-input input-medium" value="<%= content %>">
+        <button type="submit" class="btn">确认</button>
+    </div>
+</td>

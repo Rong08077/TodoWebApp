@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script data-main="js/main" src="js/libs/require/require.js"></script>
+
+</head>
+<body>
+<div id="todoapp">
+    <div class="container">
+        <div class="row">
+            <div class="page-header">
+                <h1>
+                    Todo
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="create-todo" class="well">
+                <input id="new-todo" placeholder="e.g. 晚上8:00 开始撸代码" type="text" class="span8" />
+                <span class="ui-tooltip-top help-inline" style="display:none;">按下回车键保存任务！</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="mark-all-done">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <table id="todos" class="table table-bordered table-striped">
+                <tbody id="todo-list"></tbody>
+            </table>
+        </div>
+
+        <div class="row">
+            <div id="todo-stats"></div>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
