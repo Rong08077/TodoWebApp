@@ -11,6 +11,7 @@
     "Backbone",
     "Bootstrap",
     "require",
+    "text",
     "npm",
     "Gulp"
   ],
